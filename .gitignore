@@ -1,3 +1,7 @@
+###############
+# Tex
+###############
+
 ## Core latex/pdflatex auxiliary files:
 *.aux
 *.lof
@@ -306,3 +310,16 @@ TSWLatexianTemp*
 # option is specified. Footnotes are the stored in a file with suffix Notes.bib.
 # Uncomment the next line to have this generated file ignored.
 #*Notes.bib
+
+###############
+# MuseScore
+###############
+
+.mscbackup
+*.mscz.autosave
+
+###############
+# Method PDFs
+###############
+
+!GuitarUkuleleMethod_EN/main.pdf
