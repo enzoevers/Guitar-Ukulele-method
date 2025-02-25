@@ -38,7 +38,13 @@
 \usepackage{array}
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
-\usepackage{biblatex}
+\usepackage{fontspec}
+\usepackage{lilyglyphs}
+
+%\usepackage{biblatex}
+%\addbibresource{refs.bib}
+
+\usepackage[backend=biber]{biblatex}
 \addbibresource{refs.bib}
 
 \title{Strings? Why not!}
@@ -49,17 +55,17 @@
 
 \tableofcontents
 
-\part{Gitaar}
+\part{Guitar}
 \input{gitaar/1_klaarmaken_om_te_spelen/main}
 \newpage
 \input{gitaar/2_eerste_geluiden/main}
 \newpage
+\input{gitaar/3_music_notation/main}
 
 \part{Ukulele}
 \input{ukulele/1_klaarmaken_om_te_spelen/main}
 \newpage
 \input{ukulele/2_eerste_geluiden/main}
-\newpage
 
 %Reading notes
 %Scales and Chord patterns (learning the fretboard)
