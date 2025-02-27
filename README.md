@@ -5,8 +5,6 @@
 - [Listening to the (exercise) songs](#listening-to-the-exercise-songs)
     - [Installing MuseScore Studio](#installing-musescore-studio)
     - [Playing the exercises](#playing-the-exercises)
-- [Contributing](#contributing)
-    - [Setting up LaTeX environment](#setting-up-latex-environment)
 
 ---
 
@@ -45,20 +43,3 @@ All exercises are created with [MuseScore](https://musescore.org/en) (an open-so
 - DONE!
 
 To learn more about how to use `MuseScore`, have a look at these tutorials: https://musescore.org/en/tutorials.
-
-## Contributing
-### Setting up LaTeX environment
-1. Install [TeXstudio](https://www.texstudio.org/)
-2. Install [MiKTeX](https://miktex.org/download)
-3. In TeXstudio select the following build options in the configuration panel:
-
-<img src="Images/TeXstudioOpenConfiguration.png">
-
-<img src="Images/TeXstudioBuildSettings.png">
-
-4. In TeXstudio open the `main.tex` file in `./MethodBooks/GuitarMethod_EN/` or `./MethodBooks/UkuleleMethod_EN/`
-5. In TeXStudio press `Build & View` to generate the document preview. The first time TeXstudio might ask you to install to required packages.
-
-<img src="Images/TeXstudioBuildAndView.png">
-
-To learn more about the LaTeX langauge see https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes.
