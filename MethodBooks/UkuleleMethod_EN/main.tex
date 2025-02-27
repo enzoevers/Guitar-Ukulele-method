@@ -5,6 +5,7 @@
 % Language setting
 % Replace `english' with e.g. `spanish' to change the document language
 \usepackage[english]{babel}
+\usepackage[toc,page]{appendix}
 
 \usepackage{titlesec}
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
@@ -73,5 +74,9 @@
 %Strumming patterns
 
 \printbibliography
+
+\begin{appendices}
+\input{ukulele/appendix_ukulele_empty_fretboard/main}
+\end{appendices}
 
 \end{document}
