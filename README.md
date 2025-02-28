@@ -1,14 +1,23 @@
 # Guitar & ukulele method
 
-### Table of Contents  
-- [Download method books](#download-method-books)
+### Table of Contents
+- [Method](#method)
+    - [Download method books](#download-method-books)
 - [Listening to the (exercise) songs](#listening-to-the-exercise-songs)
     - [Installing MuseScore Studio](#installing-musescore-studio)
     - [Playing the exercises](#playing-the-exercises)
 
 ---
 
-## Download method books
+## Method
+
+The philosophy of this method is:
+1. Expose you to new concepts so you have seen it, but not necessarily understand it yet.
+2. Guided by exercises and songs, explain the previously shown concepts and how they work together.
+3. Understand the theory of the concepts and be able to use them in playing.
+4. Start at 1. again with new concepts.
+
+### Download method books
 - [Guitar (English)](./MethodBooks/GuitarMethod_EN/main.pdf)
     - Note: work in progress
 - [Ukulele (English)](./MethodBooks/UkuleleMethod_EN/main.pdf)
