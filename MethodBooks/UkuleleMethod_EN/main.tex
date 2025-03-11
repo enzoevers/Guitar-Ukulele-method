@@ -5,6 +5,9 @@
 % Language setting
 % Replace `english' with e.g. `spanish' to change the document language
 \usepackage[english]{babel}
+\usepackage[toc,page]{appendix}
+
+\usepackage[parfill]{parskip}
 
 \usepackage{titlesec}
 \titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
@@ -61,6 +64,8 @@
 \input{ukulele/2_eerste_geluiden/main}
 \newpage
 \input{ukulele/3_music_notation/main}
+\newpage
+\input{ukulele/4_scales_and_chords/main}
 
 %Reading notes
 %Scales and Chord patterns (learning the fretboard)
@@ -71,5 +76,9 @@
 %Strumming patterns
 
 \printbibliography
+
+\begin{appendices}
+\input{ukulele/appendix_ukulele_empty_fretboard/main}
+\end{appendices}
 
 \end{document}
