@@ -21,7 +21,7 @@ Note that the clef shown in \ref{fig:music_note_names_on_staff} is different tha
 
 \newpage
 
-\subsection{Time signatures}
+\subsection{Counting}
 
 So far we have also only seen one type of note. The quarter note. However, there are more. See \ref{fig:note_duration_basic}. The \lilyTimeSignature{4}{4} means that there can fit 4 (top number) quarter notes (bottom number) in a measure. 
 
@@ -34,11 +34,11 @@ So far we have also only seen one type of note. The quarter note. However, there
 
 \textbf{Important}: A whole note (\wholeNote) equal 4 quarter notes (\quarterNote). It does \textbf{not} equal a whole measure. \newline
 
-There are also other time signatures. But they all have the meaning. The top value indicated how many notes of the bottom number's duration fit in a measure. So a \lilyTimeSignature{3}{4} time signature can fit 3 quarter notes per measure. And a \lilyTimeSignature{6}{8} time signature can fit 6 eight notes per measure. Note that \lilyTimeSignature{3}{4} and \lilyTimeSignature{6}{8} actually indicate the same duration per measure, but they indicate a different feel. This is indicated in \ref{fig:time_signatures}
+There are also other time signatures. The top value indicates how many notes of the bottom number's duration fit in a measure. So a \lilyTimeSignature{3}{4} time signature can fit 3 quarter notes per measure. And a \lilyTimeSignature{6}{8} time signature can fit 6 eighth notes per measure. Note that \lilyTimeSignature{3}{4} and \lilyTimeSignature{6}{8} indicate the same duration per measure, but they provide a different feel. This is demonstrated in \autoref{fig:time_signatures}.
 
 In \ref{fig:time_signatures} you also see a new duration notation. In the first measure with \lilyTimeSignature{6}{8} timing, there are dots next to the notes (\quarterNoteDottedDown). This means that the note has a duration of 1.5x its original duration.
 
-The \lilyAccent symbol means that this note should be played with a more powerful accent. The bold numbers above the notes indicate the counting of the notes. A bold number means to put an accent on it, but played less accented then the ones where there is also an \lilyAccent symbol.
+The ">" symbol means that this note should be played with a more powerful accent. The \textbf{bold} numbers above the notes indicate the counting of the notes. A bold number means to put an accent on it, but played less accented then the ones where there is also an ">" symbol.
 
 \begin{figure}[h]
 	\centering
@@ -48,6 +48,26 @@ The \lilyAccent symbol means that this note should be played with a more powerfu
 \end{figure}
 
 Remember exercise \ref{fig:exercise_nothing_else_matters_metallica_intro_pima} (Metallica - Nothing else matters (intro))? That is also in \lilyTimeSignature{6}{8}.
+
+\newpage
+
+Where notes indicate when to play a sound, rests indicate when to be silent. In \autoref{fig:guitar_rests} the most common rest durations are shown.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarRests.png}
+	\caption{Rest notations of different duration}
+	\label{fig:guitar_rests}
+\end{figure}
+
+In \autoref{fig:guitar_rests_exercise} an exercise is provided to count the rests. Remember to take this slow and to be conscious about the counts. As a help the tempo is set to the 60 quarter notes per minutes (BPM). This way each quarter note is 1 second. But feel free to play it slower.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarRestsExercise.png}
+	\caption{Rest notations of different duration}
+	\label{fig:guitar_rests_exercise}
+\end{figure}
 
 
 \newpage
@@ -67,7 +87,7 @@ Now Jingle bells can be played as shown in \ref{fig:jingle_bells}.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/JingleBells.png}
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarJingleBells.png}
 	\caption{Jingle bells}
 	\label{fig:jingle_bells}
 \end{figure}
@@ -87,13 +107,12 @@ In \ref{fig:tetris_simple_first_part} the first part of the Tetris tune is writt
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/Tetris_Simple_FirstPart.png}
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarTetrisSimpleFirstPart.png}
 	\caption{First part of the Tetris tune}
 	\label{fig:tetris_simple_first_part}
 \end{figure}
 
-
-\infobox{The "Tetris" tune is actually derived from a Russian folk song called "Korobeiniki", which is based the a similar named poem written by Nikolai Nekrasov.}
+\infobox{The "Tetris" tune is derived from a Russian folk song called "Korobeiniki", which is based the a similar named poem written by Nikolay Nekrasov. \cite{KorobeinikiWiki}}
 
 \newpage
 
@@ -104,7 +123,7 @@ Let's take the melody of "Memory" from the musical "Cats" \ref{fig:memory_cats}.
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[height=0.12\textheight]{../../MuseScore/Guitar/NotesGFE3.png}
+	\includegraphics[height=0.12\textheight]{../../MuseScore/Guitar/NotesUsedInMemoryCats.png}
 	\caption{The G, F, and G, notes on the 3rd and 4th strings}
 	\label{fig:notes_g_f_e_3}
 \end{figure}
@@ -113,27 +132,77 @@ It also uses a new symbol. The \textbf{tie} symbol (seen to connect notes from m
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/MemoryCats.png}
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarMemoryCats.png}
 	\caption{Memory from the musical Cats}
 	\label{fig:memory_cats}
 \end{figure}
 
-\newpage
-
-Another song that you know that uses all the notes that you've learned so far is Happy birthday {\ref{fig:happy_birthday}}. This notation also introduces a new symbol. The rest symbol \crotchetRest.
-
-Just like there are multiple durations for notes, there are also multiple durations for rests. Before playing happy birthday, lets have a look at the different rest symbols in \ref{fig:rest_symbols}.
+Another song that you know that uses all the notes that you've learned so far is Happy birthday {\ref{fig:happy_birthday}}. 
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/Rests.png}
-	\caption{Rest symbols}
-	\label{fig:rest_symbols}
-\end{figure}
-
-\begin{figure}[h]
-	\centering
-	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/HappyBirthday.png}
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarHappyBirthday.png}
 	\caption{Happy birthday}
 	\label{fig:happy_birthday}
 \end{figure}
+
+\newpage
+
+In the following song you will learn the low C and D notes.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.12\textheight]{../../MuseScore/Guitar/GuitarNotesUsedInVogeltjesdans.png}
+	\caption{Notes used for the song "De Vogeltjesdans"}
+	\label{fig:guitar_notes_for_vogeltjesdans}
+\end{figure}
+
+\infobox{In \autoref{fig:guitar_notes_for_vogeltjesdans} you not only see the notes used in the song, but you also see the C major scale. Later on we will talk more about scales.}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarVogeltjesdansDeElectronicas.png}
+	\caption{De vogeltjesdans - De Electronica's}
+	\label{fig:guitar_vogeltjesdans}
+\end{figure}
+
+\infobox{While most people know this as the Dutch titled "De vogeltjesdans". It is based on the original song called "Der Ententanz" composed by Werner Thomas. \cite{DeVogeltjesDansWiki}}
+
+\newpage
+
+In the next song the low B, A, G, and E notes is introduced.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.12\textheight]{../../MuseScore/Guitar/GuitarNotesUsedInSevenNationArmy.png}
+	\caption{Notes used for the song "Seven Nation Army"}
+	\label{fig:guitar_notes_for_seven_nation_army}
+\end{figure}
+
+Before playing \autoref{fig:guitar_seven_nation_army}. Lets see how these notes work that are below the normal lines. In the beginning of this chapter, the names of the notes that correspond to the lines of the staff where shown (\autoref{fig:music_note_names_on_staff}). Note there that each line and space between the lines had the sequence of "A, B, C, D, E, F, G, A, B, etc." if you go up up on the staff lines (and the other direction if you go on the staff lines). This sequence simply continues below and above the normal staff lines.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarSevenNationArmyTheWhiteStripes.png}
+	\caption{Seven Nation Army - The White Stripes}
+	\label{fig:guitar_seven_nation_army}
+\end{figure}
+
+\newpage
+
+To introduce the last non-sharp/flat note withing the first 3 frets, we will play the first part from "Californication" from "Red Hot Chili Peppers". This introduces the low F note.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[height=0.12\textheight]{../../MuseScore/Guitar/GuitarNotesUsedInCalifornication.png}
+	\caption{Notes used for the song "Californication"}
+	\label{fig:guitar_notes_for_californication}
+\end{figure}
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarCalifornicationRedHotChiliPeppers.png}
+	\caption{Californication - Red Hot Chili Peppers}
+	\label{fig:guitar_californication}
+\end{figure}
+
