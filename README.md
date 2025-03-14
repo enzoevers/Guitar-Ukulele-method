@@ -38,7 +38,7 @@ All exercises are created with [MuseScore](https://musescore.org/en) (an open-so
 
 ### Playing the exercises
 
-- Download an exercise. For example [`./MuseScore/Guitar/Tetris_Simple_FirstPart.mscz`](./MuseScore/Guitar/Tetris_Simple_FirstPart.mscz)
+- Download an exercise. For example [`./MuseScore/Ukulele/UkuleleTetrisFull.mscz`](./MuseScore/Ukulele/UkuleleTetrisFull.mscz)
     - A file can be downloaded using this button at the top right:
     
     <img src="Images/GitDownloadFile.png">
