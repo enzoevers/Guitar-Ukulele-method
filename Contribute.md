@@ -1,5 +1,5 @@
-## Contributing
-### Setting up LaTeX environment
+# Contributing
+## Setting up LaTeX environment
 1. Install [TeXstudio](https://www.texstudio.org/)
 2. Install [MiKTeX](https://miktex.org/download)
 3. In TeXstudio select the following build options in the configuration panel:
@@ -14,3 +14,9 @@
 <img src="Images/TeXstudioBuildAndView.png">
 
 To learn more about the LaTeX langauge see https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes.
+
+## Download draw.io
+
+Some diagram are created in draw.io. The application can be downloaded from the website https://www.drawio.com/. You can also use the web-based application https://www.draw.io/.
+
+The diagram are stored in [./DrawIO/](./DrawIO/).
