@@ -18,9 +18,9 @@ The philosophy of this method is:
 4. Start at 1. again with new concepts.
 
 ### Download method books
-- [Guitar (English)](./MethodBooks/GuitarMethod_EN/main.pdf)
+- [Guitar (English)](./MethodBooks/GuitarMethod_EN/GuitarMethod_EN.pdf)
     - Note: work in progress
-- [Ukulele (English)](./MethodBooks/UkuleleMethod_EN/main.pdf)
+- [Ukulele (English)](./MethodBooks/UkuleleMethod_EN/UkuleleMethod_EN.pdf)
     - Note: work in progress
 
 The PDFs can be downloaded using this button at the top right:
