@@ -322,7 +322,7 @@ TSWLatexianTemp*
 # Method PDFs
 ###############
 
-!MethodBooks/**/main.pdf
+!MethodBooks/**/*.pdf
 
 ###############
 # DrawIO
