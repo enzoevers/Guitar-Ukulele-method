@@ -323,3 +323,9 @@ TSWLatexianTemp*
 ###############
 
 !MethodBooks/**/main.pdf
+
+###############
+# DrawIO
+###############
+
+*.drawio.bkp
