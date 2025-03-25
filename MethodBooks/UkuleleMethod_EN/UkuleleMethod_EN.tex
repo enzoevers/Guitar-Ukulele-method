@@ -44,7 +44,24 @@
 \newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
 
 \usepackage{fontspec}
+
 \usepackage{lilyglyphs}
+% To avoid a double define error with leadsheets
+\let\lilydoublesharp\doublesharp
+\let\doublesharp\relax
+
+\usepackage[minimal]{leadsheets}
+\useleadsheetslibrary{songs}
+
+
+\newcommand{\RomanNumeralCaps}[1]
+{
+	\MakeUppercase{\romannumeral #1}
+}
+\newcommand{\RomanNumeral}[1]
+{
+	\romannumeral #1
+}
 
 \usepackage[backend=biber]{biblatex}
 \addbibresource{refs.bib}
