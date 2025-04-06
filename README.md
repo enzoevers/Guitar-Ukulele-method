@@ -22,6 +22,7 @@ The philosophy of this method is:
     - Note: work in progress
 - [Ukulele (English)](./MethodBooks/UkuleleMethod_EN/UkuleleMethod_EN.pdf)
     - Note: work in progress
+    - Currently halted to give the guitar method priority in development
 
 The PDFs can be downloaded using this button at the top right:
     
