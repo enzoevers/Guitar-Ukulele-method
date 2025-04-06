@@ -63,6 +63,20 @@
 	\romannumeral #1
 }
 
+\usepackage[table]{xcolor}
+
+\definecolor{ColorOtherNote}{HTML}{FFE6CC}
+\newcommand{\ScaleCellFill}
+{
+	\cellcolor{ColorOtherNote}
+}
+
+\definecolor{ColorRootNote}{HTML}{D5E8D4}
+\newcommand{\ScaleRootCellFill}
+{
+	
+	\cellcolor{ColorRootNote}
+}
 
 \usepackage[backend=biber]{biblatex}
 \addbibresource{refs.bib}
@@ -84,6 +98,12 @@
 \input{gitaar/3_getting_familiar_with_the_fretboard/main}
 \newpage
 \input{gitaar/4_scales_and_chords/main}
+\newpage
+\input{gitaar/5_improvising/main}
+\newpage
+\input{gitaar/6_chord_alterations/main}
+\newpage
+\input{gitaar/7_using_the_whole_fretboard/main}
 
 %Reading notes
 %Scales and Chord patterns (learning the fretboard)

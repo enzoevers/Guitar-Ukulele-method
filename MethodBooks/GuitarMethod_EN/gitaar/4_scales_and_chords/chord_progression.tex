@@ -4,7 +4,7 @@
 
 A chord progression of chords. For example, if you would play the chords C and G repeatedly for (part of) a song then the chord progression would be C - G. However, assuming that we are in the key of C major and therefore the C would be the root note/chord, this chord progression isn't universal. For that reason chord progressions are often referred to with numbers (notated with roman numerals).
 
-Using numbers the chord progression C - G would become 1 - 5, or with roman numerals \RomanNumeralCaps{1} - \RomanNumeralCaps{5}. The indexes in the major scale can be shown using the roman numerals as well. See \autoref{tab:guitar_major_scale_chords}. The chord and the 7th index (\RomanNumeral{7}\textsuperscript{o}) is called a diminished chord, but we will ignore this for now. The 8th index is not assigned a chord because it's the same as index 1.
+Using numbers, the chord progression C - G would become 1 - 5, or with roman numerals \RomanNumeralCaps{1} - \RomanNumeralCaps{5}. The indexes in the major scale can be shown using the roman numerals as well. See \autoref{tab:guitar_major_scale_chords}. The chord on the 7th index (\RomanNumeral{7}\textsuperscript{o}) is called a diminished chord, but we will ignore this for now. The 8th index is not assigned a chord because it's the same as index 1. The same can be done for the minor scale (\autoref{tab:guitar_minor_scale_chords}).
 
 Two things to note:
 
@@ -14,30 +14,158 @@ Two things to note:
 \end{itemize}
 
 \begin{table}[h]
-	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} &
-	\end{tabular}
-	\caption{Chords in the major scale}
-	\label{tab:guitar_major_scale_chords}
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{tabular}{*{16}{c}}
+			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
+			\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
+			\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} &
+		\end{tabular}
+		\caption{Chords in the major scale}
+		\label{tab:guitar_major_scale_chords}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{tabular}{*{16}{c}}
+			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
+			\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}  \\
+			\multicolumn{2}{P{4mm}}{\RomanNumeral{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{7}} &
+		\end{tabular}
+		\caption{Chords in the minor scale}
+		\label{tab:guitar_minor_scale_chords}
+	\end{minipage}
 \end{table}
 
-The same can be done for the minor scale (\autoref{tab:guitar_minor_scale_chords}).
+\subsection{Why the major, minor, and diminished chords?}
+
+Initially it might seem arbitrary why some indexes in the scale are major chords and others are minor. However, lets look back at \autoref{sec:building-chords-chords-scales}. And then specifically to these tables. The green notes are the root note.
+
+\begin{table}[h]
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{tabular}{*{16}{c}}
+			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
+			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill 1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}
+		\end{tabular}
+		\caption{Building up a major chord}
+		\label{tab:guitar_major_chord_buildup_recap}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{tabular}{*{16}{c}}
+			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
+			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill 1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}
+		\end{tabular}
+		\caption{Building up a minor chord}
+		\label{tab:guitar_minor_chord_buildup_recap}
+	\end{minipage}
+\end{table}
+
+These tables show that a chord is made up out of the 1st, 3rd, and 5th note in a scale. Another way to look at it is always just two notes in the scale ahead until you have 3 notes that form a chord.
+
+This last way of looking will be used here.
+
+In this subsection a half step will be called a semitone. Remember that there are two half steps in a whole step.
+
+For the Major scale:
+
+\begin{itemize}
+	\item There are \textbf{4 semitones} between 1 and 3. This interval is called a \textbf{major 3rd}.
+	\item There are \textbf{7 semitones} between 1 and 5. This interval is called a \textbf{perfect 5th}.
+\end{itemize}
+
+For the Minor scale:
+
+\begin{itemize}
+	\item There are \textbf{3 semitones} between 1 and 3. This interval is called a \textbf{minor 3rd}.
+	\item There are \textbf{7 semitones} between 1 and 5. This interval is called a \textbf{perfect 5th}.
+\end{itemize}
+
+Note that both major and minor have a perfect 5th. The only difference is that a major chord has a major 3rd, while a minor chord has a minor 3rd.
+
+Some examples will be given next. Note that these principles can be applied to any note in both the major and minor scales.
+
+\newpage
+
+\subsubsection{Identifying a minor chord}
+Lets determine if index 3 of the major scale is a major or minor chord. The colored indexes in \autoref{tab:guitar_major_scale_3rd_chord_identify} are found by starting at the 3rd index, and then jumping two steps ahead each time until we found three notes.
 
 \begin{table}[h]
 	\centering
 	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}  \\
-		\multicolumn{2}{P{4mm}}{\RomanNumeral{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{7}} &
+		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
+		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleRootCellFill 3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 7} & \multicolumn{2}{P{4mm}}{8}
 	\end{tabular}
-	\caption{Chords in the minor scale}
-	\label{tab:guitar_minor_scale_chords}
+	\caption{Intervals for the 3rd chord in the major scale}
+	\label{tab:guitar_major_scale_3rd_chord_identify}
 \end{table}
 
-How and why some chords are major and others are minor will be explained later. Lets first see how these can be used.
+Now we should look at the intervals between the note.
+
+\begin{itemize}
+	\item 3 to 5: 3 semitones (minor 3rd)
+	\item 3 to 7: 7 semitones (perfect 5th)
+\end{itemize}
+
+We have a minor 3rd and a perfect 5th. This means that it's a minor chord.
+
+\subsubsection{Identifying a major chord}
+Lets determine if index 5 of the major scale is a major or minor chord. The colored indexes in \autoref{tab:guitar_major_scale_5th_chord_identify} are found by starting at the 5th index, and then jumping two steps ahead each time until we found three notes.
+
+Note that this time we wrapped around for the last note. Remember that the 8th note is the same note at the 1st note. So from index 7 we first made a half step to 8 (same as 1) and then made a whole step to index 2.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{*{16}{c}}
+		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
+		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleRootCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 7} & \multicolumn{2}{P{4mm}}{8}
+	\end{tabular}
+	\caption{Intervals for the 5th chord in the major scale}
+	\label{tab:guitar_major_scale_5th_chord_identify}
+\end{table}
+
+Now we should look at the intervals between the note.
+
+\begin{itemize}
+	\item 5 to 7: 4 semitones (major 3rd)
+	\item 5 to 2: 7 semitones (perfect 5th)
+\end{itemize}
+
+We have a major 3rd and a perfect 5th. This means that it's a major chord.
+
+\subsubsection{Identifying a diminished chord}
+
+A diminished chord is made up of:
+
+\begin{itemize}
+	\item minor 3rd: 3 semitones
+	\item diminished 5th: 6 semitones (also called a tritone)
+\end{itemize}
+
+\infobox{The tritone interval is generally considered to sound uneasy/restless. That is why a diminished chord also gives this uneasy feeling. In the next chapter about improvisation we will look at how to avoid this (spoiler: it's the pentatonic scale).}
+
+The major (and minor) scales only have one diminished chord. For the major scale that is the chord on the 7th index.
+
+\begin{table}[h]
+	\centering
+	\begin{tabular}{*{16}{c}}
+		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
+		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{\ScaleRootCellFill 7} & \multicolumn{2}{P{4mm}}{8}
+	\end{tabular}
+	\caption{Intervals for the 7th chord in the major scale}
+	\label{tab:guitar_major_scale_7th_chord_identify}
+\end{table}
+
+\begin{itemize}
+	\item 7 to 2: 3 semitones (minor 3rd)
+	\item 7 to 4: 6 semitones (diminished 5th)
+\end{itemize}
+
+We have a minor 3rd and a diminished 5th. This means that it's a diminished chord.
+
+\newpage
 
 \subsection{Analyzing "Knockin' On Heaven's Door - Bob Dylan"}
 
@@ -56,7 +184,7 @@ The song is in the G major key. The G major scale is shown again in \autoref{tab
 		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
 		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
 		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} & \\
-		\multicolumn{2}{P{4mm}}{\textbf{G}} & \multicolumn{2}{P{4mm}}{\textbf{A}} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{\textbf{C}} & \multicolumn{2}{P{4mm}}{\textbf{D}} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G}
+		\multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill Am} & \multicolumn{2}{P{4mm}}{Bm} & \multicolumn{2}{P{4mm}}{\ScaleCellFill C} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{Em} & \multicolumn{2}{P{4mm}}{F\sharp\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{G}
 	\end{tabular}
 	\caption{G major scale with chords}
 	\label{tab:guitar_g_major_scale_with_chords}
@@ -86,7 +214,7 @@ As an example, "Knockin' On Heaven's Door" will be changed to the D major key. B
 		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
 		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
 		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} & \\
-		\multicolumn{2}{P{4mm}}{\textbf{D}} & \multicolumn{2}{P{4mm}}{\textbf{E}} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{\textbf{G}} & \multicolumn{2}{P{4mm}}{\textbf{A}} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D}
+		\multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{\ScaleCellFill Em} & \multicolumn{2}{P{4mm}}{F\sharp m} & \multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill A} & \multicolumn{2}{P{4mm}}{Bm} & \multicolumn{2}{P{4mm}}{C\sharp\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{D}
 	\end{tabular}
 	\caption{D major scale with chords}
 	\label{tab:guitar_D_major_scale_with_chords}
@@ -102,7 +230,7 @@ This song is in the key of A$\flat$ (\autoref{tab:guitar_a_flat_major_scale_with
 		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
 		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
 		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} & \\
-		\multicolumn{2}{P{4mm}}{\textbf{A\flat}} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{\textbf{D\flat}} & \multicolumn{2}{P{4mm}}{\textbf{E\flat}} & \multicolumn{2}{P{4mm}}{\textbf{F}} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A\flat}
+		\multicolumn{2}{P{4mm}}{\ScaleCellFill A\flat} & \multicolumn{2}{P{4mm}}{B\flat m} & \multicolumn{2}{P{4mm}}{Cm} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D\flat} & \multicolumn{2}{P{4mm}}{\ScaleCellFill E\flat} & \multicolumn{2}{P{4mm}}{\ScaleCellFill Fm} & \multicolumn{2}{P{4mm}}{G\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{A\flat}
 	\end{tabular}
 	\caption{A$\flat$ major scale with chords}
 	\label{tab:guitar_a_flat_major_scale_with_chords}
@@ -114,6 +242,8 @@ In the first verse of this song (shown in the previously) the following chord pr
 	\item A$\flat$ - Fm - D$\flat$ - E$\flat$: \RomanNumeralCaps{1} - \RomanNumeral{6} - \RomanNumeralCaps{4} - \RomanNumeralCaps{5}
 \end{itemize}
 
+\newpage
+
 \subsection{Deviating from the scale chords}
 
 Of course, the things described so far are a good starting point, but music is a creative endeavor after all. So feel free to experiment.
@@ -124,6 +254,14 @@ The song "Hey Ya!" from Outkast did that a bit as well. The song is in the key o
 \end{itemize}
 
 Strictly speaking this doesn't fit in the chords of the G major scale. You would expect an Em chord instead of an E (see \autoref{tab:guitar_g_major_scale_with_chords}).
+
+\subsection{Your turn}
+
+When you are playing a song, try to see if you can find the chord progression pattern. When looking for chords on the internet you often see the key of the song as well. If it's not there, you can always ask the internet if it knows the key of the song.
+
+When you have the key, see if you can fit the chords in the scale of that key.
+
+If you internet couldn't provide you the key. Then see how many half/whole steps are between the chords in the song. By using these intervals you may be able to recognize the pattern in a scale.
 
 % Knocking on heaven's door - bob dylan https://tabs.ultimate-guitar.com/tab/bob-dylan/knockin-on-heavens-door-chords-66559
 % America - A Horse With No Name (1972) - Simple, but interesting chords https://tabs.ultimate-guitar.com/tab/america/a-horse-with-no-name-chords-59609
