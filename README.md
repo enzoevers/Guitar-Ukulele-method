@@ -3,6 +3,7 @@
 ### Table of Contents
 - [Method](#method)
     - [Download method books](#download-method-books)
+    - [Feedback](#feedback)
 - [Listening to the (exercise) songs](#listening-to-the-exercise-songs)
     - [Installing MuseScore Studio](#installing-musescore-studio)
     - [Playing the exercises](#playing-the-exercises)
@@ -27,6 +28,16 @@ The philosophy of this method is:
 The PDFs can be downloaded using this button at the top right:
     
 <img src="Images/GitDownloadFile.png">
+
+### Feedback
+
+All feedback is welcome and helps to increase the quality of the method books. For example, if you think that something is missing, if something is wrong, or if an explanation can be improved, please create an issue in the [issue tab](https://github.com/enzoevers/Guitar-Ukulele-method/issues) at the top of this page.
+
+To create an issue you will need to have a github account. If you don't want to create an account, you can also send an email to `enzoevers@gmail.com`.
+
+<img src="Images/github_issue_tab.png" width=300px>
+
+<a href="https://github.com/enzoevers/Guitar-Ukulele-method/issues/new"><img src="Images/github_new_issue_button.png"></a>
 
 ## Listening to the (exercise) songs
 All exercises are created with [MuseScore](https://musescore.org/en) (an open-source project: [git](https://github.com/musescore/MuseScore)), and all project files are saved in the [`./MuseScore`](./MuseScore/) folder.
