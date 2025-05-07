@@ -1,4 +1,4 @@
-<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.2 Chrome/134.0.6998.178 Electron/35.1.2 Safari/537.36" version="26.2.2" pages="3">
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/26.2.15 Chrome/134.0.6998.205 Electron/35.2.1 Safari/537.36" version="26.2.15" pages="3">
   <diagram name="BaseShapes" id="cn8i1whEgUo5MPszFPy9">
     <mxGraphModel dx="1843" dy="1350" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -12008,11 +12008,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="TdGYTiQt62AmrEzIlAlx" name="Guitar">
-<<<<<<< HEAD
-    <mxGraphModel dx="6847" dy="2002" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
-=======
-    <mxGraphModel dx="8570" dy="3003" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
+    <mxGraphModel dx="9465" dy="4140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -12887,11 +12883,7 @@
           <mxGeometry x="1280" y="1160" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-121" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="1180" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="1140" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-122" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;strokeWidth=6;container=0;" parent="1" vertex="1">
           <mxGeometry x="-200" y="950" width="40" height="610" as="geometry" />
@@ -12945,11 +12937,7 @@
           <mxGeometry x="1280" y="1260" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-138" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="1300" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="1240" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-139" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-140" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -13000,11 +12988,7 @@
           <mxGeometry x="1280" y="1360" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-154" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="1420" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="1340" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-155" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-156" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -13051,13 +13035,8 @@
         <mxCell id="p08EH08mNXPinCSeTtzq-168" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1460" width="80" height="80" as="geometry" />
         </mxCell>
-<<<<<<< HEAD
-        <mxCell id="p08EH08mNXPinCSeTtzq-169" value="8" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1540" width="80" height="80" as="geometry" />
-=======
         <mxCell id="p08EH08mNXPinCSeTtzq-169" value="8/1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="1400" y="1460" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-171" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-172" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -13561,11 +13540,7 @@
           <mxGeometry x="1280" y="1820" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-833" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="1940" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="1820" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-834" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;strokeWidth=6;container=0;" parent="1" vertex="1">
           <mxGeometry x="-200" y="1610" width="40" height="610" as="geometry" />
@@ -13619,11 +13594,7 @@
           <mxGeometry x="1280" y="1920" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-850" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="2060" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="1920" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-851" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-852" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -13640,7 +13611,7 @@
         <mxCell id="p08EH08mNXPinCSeTtzq-854" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="-40" y="2020" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="SP2VdrvyenWVwGMRfvo1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="p08EH08mNXPinCSeTtzq-855" target="p08EH08mNXPinCSeTtzq-854">
+        <mxCell id="SP2VdrvyenWVwGMRfvo1-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="p08EH08mNXPinCSeTtzq-855" target="p08EH08mNXPinCSeTtzq-854" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-855" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
@@ -13677,11 +13648,7 @@
           <mxGeometry x="1280" y="2020" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-866" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="2180" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="2020" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-867" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-915" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -13729,11 +13696,7 @@
           <mxGeometry x="1280" y="2120" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-881" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="1400" y="2300" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="1400" y="2120" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-882" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-883" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -13834,64 +13797,8 @@
         <mxCell id="p08EH08mNXPinCSeTtzq-912" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
           <mxGeometry x="1280" y="1720" width="80" height="80" as="geometry" />
         </mxCell>
-<<<<<<< HEAD
-        <mxCell id="p08EH08mNXPinCSeTtzq-897" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1700" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-898" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-899" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="1990" as="sourcePoint" />
-            <mxPoint x="1500" y="1880" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-899" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-900" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-901" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-902" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="80" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-903" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="200" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-904" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="320" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-905" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="440" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-906" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="560" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-907" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="680" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-908" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="800" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-909" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="920" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-910" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="1040" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-911" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="1160" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-912" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="1280" y="1840" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="p08EH08mNXPinCSeTtzq-913" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="1400" y="1820" width="80" height="80" as="geometry" />
-=======
         <mxCell id="p08EH08mNXPinCSeTtzq-913" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
           <mxGeometry x="1400" y="1720" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="p08EH08mNXPinCSeTtzq-914" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="p08EH08mNXPinCSeTtzq-868" target="p08EH08mNXPinCSeTtzq-915" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -16990,108 +16897,6 @@
           <mxGeometry x="7860" y="2270" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-1" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
-<<<<<<< HEAD
-          <mxGeometry x="-1780" y="4710" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-2" value="5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-1540" y="4710" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-4" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-5" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1360" y="4470" as="sourcePoint" />
-            <mxPoint x="-1460" y="4360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2160" y="4320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-6" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-2040" y="4320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-7" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1920" y="4320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-8" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="4320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-9" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1680" y="4320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-10" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1560" y="4320" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-13" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;strokeWidth=6;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-2080" y="4110" width="40" height="610" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-14" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-15" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1360" y="4570" as="sourcePoint" />
-            <mxPoint x="-1460" y="4460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-15" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2160" y="4420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-16" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2040" y="4420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-17" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1920" y="4420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-18" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="4420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-19" value="8/1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1680" y="4420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-20" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1560" y="4420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-24" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1360" y="4670" as="sourcePoint" />
-            <mxPoint x="-1460" y="4560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2160" y="4520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-25" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-2040" y="4520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-26" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1920" y="4520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-27" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="4520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-28" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1680" y="4520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-29" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1560" y="4520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-32" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-59" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-1360" y="4770" as="sourcePoint" />
-            <mxPoint x="-1460" y="4660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-33" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2160" y="4620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-34" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1920" y="4620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-35" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="4620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-36" value="2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-1680" y="4620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1560" y="4620" width="80" height="80" as="geometry" />
-=======
           <mxGeometry x="-1790" y="3590" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-2" value="5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
@@ -17192,7 +16997,6 @@
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-37" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
           <mxGeometry x="-1570" y="3500" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-40" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-41" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -17220,140 +17024,6 @@
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-49" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-50" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-<<<<<<< HEAD
-            <mxPoint x="-1360" y="4370" as="sourcePoint" />
-            <mxPoint x="-1460" y="4260" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-50" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2160" y="4220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-51" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2040" y="4220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-52" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1920" y="4220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-53" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1800" y="4220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-54" value="6" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-1680" y="4220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-55" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-1560" y="4220" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-58" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-33" target="SmjVdZrMQt9M2JcXYIxt-59" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-2080" y="4660" as="sourcePoint" />
-            <mxPoint x="-380" y="4660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-59" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-2040" y="4620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-60" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
-          <mxGeometry x="100" y="3910" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-61" value="5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
-          <mxGeometry x="340" y="3910" width="40" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-63" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-64" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="3670" as="sourcePoint" />
-            <mxPoint x="420" y="3560" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-64" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="3520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-65" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="3520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-66" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="3520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-67" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="80" y="3520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-68" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="200" y="3520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-69" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="320" y="3520" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-72" value="" style="shape=crossbar;whiteSpace=wrap;html=1;rounded=1;direction=south;strokeWidth=6;container=0;" parent="1" vertex="1">
-          <mxGeometry x="-200" y="3310" width="40" height="610" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-73" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-74" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="3770" as="sourcePoint" />
-            <mxPoint x="420" y="3660" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-74" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="3620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-75" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="3620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-76" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="3620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-77" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="80" y="3620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-78" value="8/1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="200" y="3620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-79" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="320" y="3620" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-82" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-83" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="3870" as="sourcePoint" />
-            <mxPoint x="420" y="3760" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-83" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="3720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-84" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="3720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-85" value="4" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="3720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-86" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="80" y="3720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-87" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="200" y="3720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-88" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="320" y="3720" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-91" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-118" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="520" y="3970" as="sourcePoint" />
-            <mxPoint x="420" y="3860" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-92" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="3820" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-93" value="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="3820" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-94" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="80" y="3820" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-95" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="200" y="3820" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-96" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
-          <mxGeometry x="320" y="3820" width="80" height="80" as="geometry" />
-=======
             <mxPoint x="-1370" y="3250" as="sourcePoint" />
             <mxPoint x="-1470" y="3140" as="targetPoint" />
           </mxGeometry>
@@ -17486,7 +17156,6 @@
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-96" value="3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="320" y="3500" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-99" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-100" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -17514,38 +17183,6 @@
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-108" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-109" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-<<<<<<< HEAD
-            <mxPoint x="520" y="3570" as="sourcePoint" />
-            <mxPoint x="420" y="3460" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-109" value="" style="whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;rounded=1;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-280" y="3420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-110" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="3420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-111" value="5" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="-40" y="3420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-112" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="80" y="3420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-113" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="200" y="3420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-114" value="7" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
-          <mxGeometry x="320" y="3420" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-117" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;fontSize=45;" parent="1" source="SmjVdZrMQt9M2JcXYIxt-92" target="SmjVdZrMQt9M2JcXYIxt-118" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-200" y="3860" as="sourcePoint" />
-            <mxPoint x="1500" y="3860" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="SmjVdZrMQt9M2JcXYIxt-118" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
-          <mxGeometry x="-160" y="3820" width="80" height="80" as="geometry" />
-=======
             <mxPoint x="520" y="3250" as="sourcePoint" />
             <mxPoint x="420" y="3140" as="targetPoint" />
           </mxGeometry>
@@ -17576,7 +17213,6 @@
         </mxCell>
         <mxCell id="SmjVdZrMQt9M2JcXYIxt-118" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=3;container=0;fontSize=45;" parent="1" vertex="1">
           <mxGeometry x="-160" y="3500" width="80" height="80" as="geometry" />
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
         </mxCell>
         <mxCell id="LLA3AO5XiKVOpn-7AZSU-1" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
           <mxGeometry x="-1820" y="5870" width="40" height="40" as="geometry" />
@@ -21190,21 +20826,18 @@
         <mxCell id="xZp_Wf5Ka1PtdalXui2v-133" value="3" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
           <mxGeometry x="7460" y="4950" width="40" height="40" as="geometry" />
         </mxCell>
-<<<<<<< HEAD
-=======
-        <mxCell id="SP2VdrvyenWVwGMRfvo1-1" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" vertex="1" parent="1">
+        <mxCell id="SP2VdrvyenWVwGMRfvo1-1" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
           <mxGeometry x="-1060" y="2210" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SP2VdrvyenWVwGMRfvo1-2" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" vertex="1" parent="1">
+        <mxCell id="SP2VdrvyenWVwGMRfvo1-2" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
           <mxGeometry x="-1060" y="1550" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SP2VdrvyenWVwGMRfvo1-3" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" vertex="1" parent="1">
+        <mxCell id="SP2VdrvyenWVwGMRfvo1-3" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="1550" width="40" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="SP2VdrvyenWVwGMRfvo1-4" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" vertex="1" parent="1">
+        <mxCell id="SP2VdrvyenWVwGMRfvo1-4" value="9" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=45;container=0;" parent="1" vertex="1">
           <mxGeometry x="820" y="2210" width="40" height="40" as="geometry" />
         </mxCell>
->>>>>>> 07c9d4c (Update scale fretboard diagrams for guitar)
       </root>
     </mxGraphModel>
   </diagram>
