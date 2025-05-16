@@ -18,14 +18,11 @@ The philosophy of this method is:
 3. Understand the theory of the concepts and be able to use them in playing.
 4. Start at 1. again with new concepts.
 
-### Download method books
+### Download method book
 - [Guitar (English)](./MethodBooks/GuitarMethod_EN/GuitarMethod_EN.pdf)
     - Note: work in progress
-- [Ukulele (English)](./MethodBooks/UkuleleMethod_EN/UkuleleMethod_EN.pdf)
-    - Note: work in progress
-    - Currently halted to give the guitar method priority in development
 
-The PDFs can be downloaded using this button at the top right:
+The PDF can be downloaded using this button at the top right:
     
 <img src="Images/GitDownloadFile.png">
 
@@ -50,7 +47,7 @@ All exercises are created with [MuseScore](https://musescore.org/en) (an open-so
 
 ### Playing the exercises
 
-- Download an exercise. For example [`./MuseScore/Ukulele/UkuleleTetrisFull.mscz`](./MuseScore/Ukulele/UkuleleTetrisFull.mscz)
+- Download an exercise. For example [`./MuseScore/Guitar/GuitarTetrisFull.mscz`](./MuseScore/Guitar/GuitarTetrisFull.mscz)
     - A file can be downloaded using this button at the top right:
     
     <img src="Images/GitDownloadFile.png">
