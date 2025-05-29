@@ -64,20 +64,12 @@
 	\romannumeral #1
 }
 
-\usepackage[table]{xcolor}
+% xcolor overrides important things used by the `array`
+% package. Therefore use nicematrix
+\usepackage{nicematrix} 
 
 \definecolor{ColorOtherNote}{HTML}{FFE6CC}
-\newcommand{\ScaleCellFill}
-{
-	\cellcolor{ColorOtherNote}
-}
-
 \definecolor{ColorRootNote}{HTML}{D5E8D4}
-\newcommand{\ScaleRootCellFill}
-{
-	
-	\cellcolor{ColorRootNote}
-}
 
 \usepackage[backend=biber]{biblatex}
 \addbibresource{refs.bib}
