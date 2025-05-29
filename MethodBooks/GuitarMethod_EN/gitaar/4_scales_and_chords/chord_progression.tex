@@ -16,22 +16,22 @@ Two things to note:
 \begin{table}[h]
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-			\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-			\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} &
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+			\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+			\Block{1-2}{\RomanNumeralCaps{1}} & & \Block{1-2}{\RomanNumeral{2}} & & \Block{1-2}{\RomanNumeral{3}} & & \Block{1-2}{\RomanNumeralCaps{4}} & & \Block{1-2}{\RomanNumeralCaps{5}} & & \Block{1-2}{\RomanNumeral{6}} & & \Block{1-2}{\RomanNumeral{7}\textsuperscript{o}} & &
+		\end{NiceTabular}
 		\caption{Chords in the major scale}
 		\label{tab:guitar_major_scale_chords}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-			\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8}  \\
-			\multicolumn{2}{P{4mm}}{\RomanNumeral{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{7}} &
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+			\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} & \\
+			\Block{1-2}{\RomanNumeral{1}} & & \Block{1-2}{\RomanNumeral{2}\textsuperscript{o}} & & \Block{1-2}{\RomanNumeralCaps{3}} & & \Block{1-2}{\RomanNumeral{4}} & & \Block{1-2}{\RomanNumeral{5}} & & \Block{1-2}{\RomanNumeralCaps{6}} & & \Block{1-2}{\RomanNumeralCaps{7}} & &
+		\end{NiceTabular}
 		\caption{Chords in the minor scale}
 		\label{tab:guitar_minor_scale_chords}
 	\end{minipage}
@@ -44,20 +44,20 @@ Initially it might seem arbitrary why some indexes in the scale are major chords
 \begin{table}[h]
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill 1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block{1-2}{2} & & \Block[fill=ColorOtherNote]{1-2}{3} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} &
+		\end{NiceTabular}
 		\caption{Building up a major chord}
 		\label{tab:guitar_major_chord_buildup_recap}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill 1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8}
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block{1-2}{2} & & \Block[fill=ColorOtherNote]{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} &
+		\end{NiceTabular}
 		\caption{Building up a minor chord}
 		\label{tab:guitar_minor_chord_buildup_recap}
 	\end{minipage}
@@ -96,10 +96,10 @@ Lets determine if index 3 of the major scale is a major or minor chord. The colo
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleRootCellFill 3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 7} & \multicolumn{2}{P{4mm}}{8}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block[fill=ColorRootNote]{1-2}{3} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6} & & \Block[fill=ColorOtherNote]{1-2}{7} & & \Block{1-2}{8} &
+	\end{NiceTabular}
 	\caption{Intervals for the 3rd chord in the major scale}
 	\label{tab:guitar_major_scale_3rd_chord_identify}
 \end{table}
@@ -120,10 +120,10 @@ Note that this time we wrapped around for the last note. Remember that the 8th n
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleRootCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 7} & \multicolumn{2}{P{4mm}}{8}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block[fill=ColorOtherNote]{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block[fill=ColorRootNote]{1-2}{5} & & \Block{1-2}{6} & & \Block[fill=ColorOtherNote]{1-2}{7} & & \Block{1-2}{8} &
+	\end{NiceTabular}
 	\caption{Intervals for the 5th chord in the major scale}
 	\label{tab:guitar_major_scale_5th_chord_identify}
 \end{table}
@@ -152,10 +152,10 @@ The major (and minor) scales only have one diminished chord. For the major scale
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{\ScaleRootCellFill 7} & \multicolumn{2}{P{4mm}}{8}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block[fill=ColorOtherNote]{1-2}{2} & & \Block{1-2}{3} & & \Block[fill=ColorOtherNote]{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block[fill=ColorRootNote]{1-2}{7} & & \Block{1-2}{8} &
+	\end{NiceTabular}
 	\caption{Intervals for the 7th chord in the major scale}
 	\label{tab:guitar_major_scale_7th_chord_identify}
 \end{table}
@@ -183,12 +183,12 @@ The song is in the G major key. The G major scale is shown again in \autoref{tab
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} & \\
-		\multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill Am} & \multicolumn{2}{P{4mm}}{Bm} & \multicolumn{2}{P{4mm}}{\ScaleCellFill C} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{Em} & \multicolumn{2}{P{4mm}}{F\sharp\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{G}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{\RomanNumeralCaps{1}} & & \Block{1-2}{\RomanNumeral{2}} & & \Block{1-2}{\RomanNumeral{3}} & & \Block{1-2}{\RomanNumeralCaps{4}} & & \Block{1-2}{\RomanNumeralCaps{5}} & & \Block{1-2}{\RomanNumeral{6}} & & \Block{1-2}{\RomanNumeral{7}\textsuperscript{o}} & & \\
+		\Block[fill=ColorOtherNote]{1-2}{G} & & \Block[fill=ColorOtherNote]{1-2}{Am} & & \Block{1-2}{Bm} & & \Block[fill=ColorOtherNote]{1-2}{C} & & \Block[fill=ColorOtherNote]{1-2}{D} & & \Block{1-2}{Em} & & \Block{1-2}{F\sharp\textsuperscript{o}} & & \Block{1-2}{G} &
+	\end{NiceTabular}
 	\caption{G major scale with chords}
 	\label{tab:guitar_g_major_scale_with_chords}
 \end{table}
@@ -213,12 +213,12 @@ As an example, "Knockin' On Heaven's Door" will be changed to the D major key. B
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} & \\
-		\multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{\ScaleCellFill Em} & \multicolumn{2}{P{4mm}}{F\sharp m} & \multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill A} & \multicolumn{2}{P{4mm}}{Bm} & \multicolumn{2}{P{4mm}}{C\sharp\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{D}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{\RomanNumeralCaps{1}} & & \Block{1-2}{\RomanNumeral{2}} & & \Block{1-2}{\RomanNumeral{3}} & & \Block{1-2}{\RomanNumeralCaps{4}} & & \Block{1-2}{\RomanNumeralCaps{5}} & & \Block{1-2}{\RomanNumeral{6}} & & \Block{1-2}{\RomanNumeral{7}\textsuperscript{o}} & & \\
+		\Block[fill=ColorOtherNote]{1-2}{D} & & \Block[fill=ColorOtherNote]{1-2}{Em} & & \Block{1-2}{F\sharp m} & & \Block[fill=ColorOtherNote]{1-2}{G} & & \Block[fill=ColorOtherNote]{1-2}{A} & & \Block{1-2}{Bm} & & \Block{1-2}{C\sharp\textsuperscript{o}} & & \Block{1-2}{D} &
+	\end{NiceTabular}
 	\caption{D major scale with chords}
 	\label{tab:guitar_D_major_scale_with_chords}
 \end{table}
@@ -229,12 +229,12 @@ This song is in the key of A$\flat$ (\autoref{tab:guitar_a_flat_major_scale_with
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{\RomanNumeralCaps{1}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{2}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{3}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{4}} & \multicolumn{2}{P{4mm}}{\RomanNumeralCaps{5}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{6}} & \multicolumn{2}{P{4mm}}{\RomanNumeral{7}\textsuperscript{o}} & \\
-		\multicolumn{2}{P{4mm}}{\ScaleCellFill A\flat} & \multicolumn{2}{P{4mm}}{B\flat m} & \multicolumn{2}{P{4mm}}{Cm} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D\flat} & \multicolumn{2}{P{4mm}}{\ScaleCellFill E\flat} & \multicolumn{2}{P{4mm}}{\ScaleCellFill Fm} & \multicolumn{2}{P{4mm}}{G\textsuperscript{o}} & \multicolumn{2}{P{4mm}}{A\flat}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{\RomanNumeralCaps{1}} & & \Block{1-2}{\RomanNumeral{2}} & & \Block{1-2}{\RomanNumeral{3}} & & \Block{1-2}{\RomanNumeralCaps{4}} & & \Block{1-2}{\RomanNumeralCaps{5}} & & \Block{1-2}{\RomanNumeral{6}} & & \Block{1-2}{\RomanNumeral{7}\textsuperscript{o}} & & \\
+		\Block[fill=ColorOtherNote]{1-2}{A\flat} & & \Block{1-2}{B\flat m} & & \Block{1-2}{Cm} & & \Block[fill=ColorOtherNote]{1-2}{D\flat} & & \Block[fill=ColorOtherNote]{1-2}{E\flat} & & \Block[fill=ColorOtherNote]{1-2}{Fm} & & \Block{1-2}{G\textsuperscript{o}} & & \Block{1-2}{A\flat} &
+	\end{NiceTabular}
 	\caption{A$\flat$ major scale with chords}
 	\label{tab:guitar_a_flat_major_scale_with_chords}
 \end{table}

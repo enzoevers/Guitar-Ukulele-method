@@ -10,20 +10,20 @@ As seen in \autoref{tab:guitar_major_chord_buildup} and \autoref{tab:guitar_mino
 \begin{table}[h]
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill 1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block{1-2}{2} & & \Block[fill=ColorOtherNote]{1-2}{3} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & 
+		\end{NiceTabular}
 		\caption{Building up a major chord}
 		\label{tab:guitar_major_chord_buildup}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill 1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{\ScaleCellFill 5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8}
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block{1-2}{2} & & \Block[fill=ColorOtherNote]{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} &
+		\end{NiceTabular}
 		\caption{Building up a minor chord}
 		\label{tab:guitar_minor_chord_buildup}
 	\end{minipage}
@@ -34,34 +34,34 @@ As seen in \autoref{tab:guitar_major_chord_buildup} and \autoref{tab:guitar_mino
 \begin{table}[h]
 	\begin{minipage}{0.45\textwidth}
 				\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-			\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{\ScaleCellFill C\sharp} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{\ScaleCellFill E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G\sharp} & \multicolumn{2}{P{4mm}}{A} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D\sharp} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{\ScaleCellFill F\sharp} & \multicolumn{2}{P{4mm}}{G\sharp} & \multicolumn{2}{P{4mm}}{A\sharp} & \multicolumn{2}{P{4mm}}{B} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{\ScaleCellFill E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{\ScaleCellFill F\sharp} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{\ScaleCellFill G\sharp} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{\ScaleCellFill B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D\sharp} & \multicolumn{2}{P{4mm}}{E} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill A} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{\ScaleCellFill C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{\ScaleCellFill B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G} \\
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & &  \Block{1-2}{\large{H}} & &  \Block{}{} \\
+			\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} \\
+			\Block[fill=ColorRootNote]{1-2}{A} & & \Block{1-2}{B} & & \Block[fill=ColorOtherNote]{1-2}{C\sharp} & & \Block{1-2}{D} & & \Block[fill=ColorOtherNote]{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G\sharp} & & \Block{1-2}{A} \\
+			\Block[fill=ColorRootNote]{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block[fill=ColorOtherNote]{1-2}{D\sharp} & & \Block{1-2}{E} & & \Block[fill=ColorOtherNote]{1-2}{F\sharp} & & \Block{1-2}{G\sharp} & & \Block{1-2}{A\sharp} & & \Block{1-2}{B} \\
+			\Block[fill=ColorRootNote]{1-2}{C} & & \Block{1-2}{D} & & \Block[fill=ColorOtherNote]{1-2}{E} & & \Block{1-2}{F} & & \Block[fill=ColorOtherNote]{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} \\
+			\Block[fill=ColorRootNote]{1-2}{D} & & \Block{1-2}{E} & & \Block[fill=ColorOtherNote]{1-2}{F\sharp} & & \Block{1-2}{G} & & \Block[fill=ColorOtherNote]{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D} \\
+			\Block[fill=ColorRootNote]{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block[fill=ColorOtherNote]{1-2}{G\sharp} & & \Block{1-2}{A} & & \Block[fill=ColorOtherNote]{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D\sharp} & & \Block{1-2}{E} \\
+			\Block[fill=ColorRootNote]{1-2}{F} & & \Block{1-2}{G} & & \Block[fill=ColorOtherNote]{1-2}{A} & & \Block{1-2}{B\flat} & & \Block[fill=ColorOtherNote]{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} \\
+			\Block[fill=ColorRootNote]{1-2}{G} & & \Block{1-2}{A} & & \Block[fill=ColorOtherNote]{1-2}{B} & & \Block{1-2}{C} & & \Block[fill=ColorOtherNote]{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G} \\
+		\end{NiceTabular}
 		\caption{Major chord from scales}
 		\label{tab:guitar_major_chords_from_scales}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.45\textwidth}
 		\centering
-		\begin{tabular}{*{16}{c}}
-			& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-			\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{\ScaleCellFill C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{\ScaleCellFill E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{\ScaleCellFill F\sharp} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{\ScaleCellFill E\flat} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{A\flat} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{\ScaleCellFill F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill A} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{\ScaleCellFill G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{\ScaleCellFill B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{\ScaleCellFill A\flat} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{\ScaleCellFill C} & \multicolumn{2}{P{4mm}}{D\flat} & \multicolumn{2}{P{4mm}}{E\flat} & \multicolumn{2}{P{4mm}}{F} \\
-			\multicolumn{2}{P{4mm}}{\ScaleRootCellFill G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{\ScaleCellFill B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{\ScaleCellFill D} & \multicolumn{2}{P{4mm}}{E\flat} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} \\
-		\end{tabular}
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+			\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} \\
+			\Block[fill=ColorRootNote]{1-2}{ A} & & \Block{1-2}{B} & & \Block[fill=ColorOtherNote]{1-2}{ C} & & \Block{1-2}{D} & & \Block[fill=ColorOtherNote]{1-2}{ E} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} \\
+			\Block[fill=ColorRootNote]{1-2}{ B} & & \Block{1-2}{C\sharp} & & \Block[fill=ColorOtherNote]{1-2}{ D} & & \Block{1-2}{E} & & \Block[fill=ColorOtherNote]{1-2}{ F\sharp} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} \\
+			\Block[fill=ColorRootNote]{1-2}{ C} & & \Block{1-2}{D} & & \Block[fill=ColorOtherNote]{1-2}{ E\flat} & & \Block{1-2}{F} & & \Block[fill=ColorOtherNote]{1-2}{ G} & & \Block{1-2}{A\flat} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} \\
+			\Block[fill=ColorRootNote]{1-2}{ D} & & \Block{1-2}{E} & & \Block[fill=ColorOtherNote]{1-2}{ F} & & \Block{1-2}{G} & & \Block[fill=ColorOtherNote]{1-2}{ A} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} & & \Block{1-2}{D} \\
+			\Block[fill=ColorRootNote]{1-2}{ E} & & \Block{1-2}{F\sharp} & & \Block[fill=ColorOtherNote]{1-2}{ G} & & \Block{1-2}{A} & & \Block[fill=ColorOtherNote]{1-2}{ B} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} \\
+			\Block[fill=ColorRootNote]{1-2}{ F} & & \Block{1-2}{G} & & \Block[fill=ColorOtherNote]{1-2}{ A\flat} & & \Block{1-2}{B\flat} & & \Block[fill=ColorOtherNote]{1-2}{ C} & & \Block{1-2}{D\flat} & & \Block{1-2}{E\flat} & & \Block{1-2}{F} \\
+			\Block[fill=ColorRootNote]{1-2}{ G} & & \Block{1-2}{A} & & \Block[fill=ColorOtherNote]{1-2}{ B\flat} & & \Block{1-2}{C} & & \Block[fill=ColorOtherNote]{1-2}{ D} & & \Block{1-2}{E\flat} & & \Block{1-2}{F} & & \Block{1-2}{G} \\
+		\end{NiceTabular}
 		\caption{Minor chord from scales}
 		\label{tab:guitar_minor_chords_from_scales}
 	\end{minipage}

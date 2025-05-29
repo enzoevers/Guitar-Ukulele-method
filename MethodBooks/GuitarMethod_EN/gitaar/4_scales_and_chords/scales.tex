@@ -37,10 +37,10 @@ Lets look at the intervals of 1 semitone again (\autoref{tab:guitar_sharp_flat_i
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{12}{P{5mm}}}
+	\begin{NiceTabular}{*{12}{P{5mm}}}
 		\large{A} & \large{A\sharp} & \large{B} & \large{C} & \large{C\sharp} & \large{D} & \large{D\sharp} & \large{E} & \large{F} & \large{F\sharp} & \large{G} & \large{G\sharp} \\ \\
-		\large{A} & \large{B\flat} & \large{B} & \large{C} & \large{D\flat} & \large{D} & \large{E\flat} & \large{E} & \large{F} & \large{G$\flat$}& \large{G} & \large{A\flat}
-	\end{tabular}
+		\large{A} & \large{B\flat} & \large{B} & \large{C} & \large{D\flat} & \large{D} & \large{E\flat} & \large{E} & \large{F} & \large{G\flat}& \large{G} & \large{A\flat}
+	\end{NiceTabular}
 	\caption{Sharp and flat intervals. Each step to the left or right is a half step.}
 	\label{tab:guitar_sharp_flat_intervals_chap_5}
 \end{table}
@@ -49,7 +49,7 @@ A list of intervals and their names is shown in \autoref{tab:guitar_intervals_in
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{|c|c|c|}
+	\begin{NiceTabular}{|c|c|c|}
 		\hline
 		\textbf{Semitones} & \textbf{Name} & \textbf{Symbol} \\
 		\hline
@@ -80,7 +80,7 @@ A list of intervals and their names is shown in \autoref{tab:guitar_intervals_in
 		\hline
 		12 & 8th (octave)& 8 \\
 		\hline
-	\end{tabular}
+	\end{NiceTabular}
 	\caption{Intervals in an octave}
 	\label{tab:guitar_intervals_in_octave}
 \end{table}
@@ -95,10 +95,10 @@ Each scale has a formula. For the major diatonic scale the formula is shown in (
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} &
+	\end{NiceTabular}
 	\caption{Major scale intervals}
 	\label{tab:guitar_major_scale_interval}
 \end{table}
@@ -109,11 +109,11 @@ For example, to create the C major scale we will start on the C and then simply 
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & 
+	\end{NiceTabular}
 	\caption{C major scale}
 	\label{tab:guitar_c_major_scale}
 \end{table}
@@ -123,11 +123,11 @@ The G major scale is shown below in (\autoref{tab:guitar_g_major_scale}).
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G} & 
+	\end{NiceTabular}
 	\caption{G major scale}
 	\label{tab:guitar_g_major_scale}
 \end{table}
@@ -143,17 +143,17 @@ In \autoref{tab:guitar_natural_note_major_scale} you see the major scales of all
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} \\
-		\multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} \\
-		\multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G} \\
-		\multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D} \\
-		\multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G\sharp} & \multicolumn{2}{P{4mm}}{A} \\
-		\multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G\sharp} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D\sharp} & \multicolumn{2}{P{4mm}}{E} \\
-		\multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D\sharp} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G\sharp} & \multicolumn{2}{P{4mm}}{A\sharp} & \multicolumn{2}{P{4mm}}{B}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} & \\
+		\Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & \\
+		\Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G} & \\
+		\Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D} & \\
+		\Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G\sharp} & & \Block{1-2}{A} & \\
+		\Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G\sharp} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D\sharp} & & \Block{1-2}{E} & \\
+		\Block{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D\sharp} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G\sharp} & & \Block{1-2}{A\sharp} & & \Block{1-2}{B} & 
+	\end{NiceTabular}
 	\caption{Major scales of all natural notes}
 	\label{tab:guitar_natural_note_major_scale}
 \end{table}
@@ -174,11 +174,11 @@ The F$\sharp$ major scale has the following notes:
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6} & \multicolumn{2}{P{4mm}}{7} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{F$\sharp$} & \multicolumn{2}{P{4mm}}{G$\sharp$} & \multicolumn{2}{P{4mm}}{A$\sharp$} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C$\sharp$} & \multicolumn{2}{P{4mm}}{D$\sharp$} & \multicolumn{2}{P{4mm}}{E$\sharp$} & \multicolumn{2}{P{4mm}}{F$\sharp$}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} & \\
+		\Block{1-2}{F$\sharp$} & & \Block{1-2}{G$\sharp$} & & \Block{1-2}{A$\sharp$} & & \Block{1-2}{B} & & \Block{1-2}{C$\sharp$} & & \Block{1-2}{D$\sharp$} & & \Block{1-2}{E$\sharp$} & & \Block{1-2}{F$\sharp$} & 
+	\end{NiceTabular}
 	\caption{F$\sharp$ major scale}
 	\label{tab:guitar_f_sharp_major_scale}
 \end{table}
@@ -311,10 +311,10 @@ The minor diatonic scale has the formula shown in \autoref{tab:guitar_minor_scal
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} & 
+	\end{NiceTabular}
 	\caption{Minor scale intervals}
 	\label{tab:guitar_minor_scale_interval}
 \end{table}
@@ -323,11 +323,11 @@ To create the A minor scale we will start on the A and then simply follow the fo
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} & \\
+		\Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} & 
+	\end{NiceTabular}
 	\caption{A minor scale}
 	\label{tab:guitar_a_minor_scale}
 \end{table}
@@ -342,17 +342,17 @@ Similar to example for the major scales of the natural notes, \autoref{tab:guita
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C\sharp} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} \\
-		\multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F\sharp} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} \\
-		\multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} \\
-		\multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} \\
-		\multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E\flat} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} \\
-		\multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E\flat} & \multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A\flat} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} \\
-		\multicolumn{2}{P{4mm}}{F} & \multicolumn{2}{P{4mm}}{G} & \multicolumn{2}{P{4mm}}{A\flat} & \multicolumn{2}{P{4mm}}{B\flat} & \multicolumn{2}{P{4mm}}{C} & \multicolumn{2}{P{4mm}}{D\flat} & \multicolumn{2}{P{4mm}}{E\flat} & \multicolumn{2}{P{4mm}}{F}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} & \\
+		\Block{1-2}{B} & & \Block{1-2}{C\sharp} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & \\
+		\Block{1-2}{E} & & \Block{1-2}{F\sharp} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & \\
+		\Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} & \\
+		\Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} & & \Block{1-2}{D} & \\
+		\Block{1-2}{G} & & \Block{1-2}{A} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E\flat} & & \Block{1-2}{F} & & \Block{1-2}{G} & \\
+		\Block{1-2}{C} & & \Block{1-2}{D} & & \Block{1-2}{E\flat} & & \Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A\flat} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} & \\
+		\Block{1-2}{F} & & \Block{1-2}{G} & & \Block{1-2}{A\flat} & & \Block{1-2}{B\flat} & & \Block{1-2}{C} & & \Block{1-2}{D\flat} & & \Block{1-2}{E\flat} & & \Block{1-2}{F} & 
+	\end{NiceTabular}
 	\caption{Minor scales of all natural notes}
 	\label{tab:guitar_natural_note_minor_scale}
 \end{table}
@@ -371,11 +371,11 @@ The F$\sharp$ minor scale has the following notes:
 
 \begin{table}[h]
 	\centering
-	\begin{tabular}{*{16}{c}}
-		& \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{H}} & \multicolumn{2}{P{4mm}}{\large{W}} & \multicolumn{2}{P{4mm}}{\large{W}} & \\
-		\multicolumn{2}{P{4mm}}{1} & \multicolumn{2}{P{4mm}}{2} & \multicolumn{2}{P{4mm}}{3$\flat$} & \multicolumn{2}{P{4mm}}{4} & \multicolumn{2}{P{4mm}}{5} & \multicolumn{2}{P{4mm}}{6$\flat$} & \multicolumn{2}{P{4mm}}{7$\flat$} & \multicolumn{2}{P{4mm}}{8} \\
-		\multicolumn{2}{P{4mm}}{F$\sharp$} & \multicolumn{2}{P{4mm}}{G$\sharp$} & \multicolumn{2}{P{4mm}}{A} & \multicolumn{2}{P{4mm}}{B} & \multicolumn{2}{P{4mm}}{C$\sharp$} & \multicolumn{2}{P{4mm}}{D} & \multicolumn{2}{P{4mm}}{E} & \multicolumn{2}{P{4mm}}{F$\sharp$}
-	\end{tabular}
+	\begin{NiceTabular}{*{16}{P{0.05mm}}}
+		\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+		\Block{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} & \\
+		\Block{1-2}{F$\sharp$} & & \Block{1-2}{G$\sharp$} & & \Block{1-2}{A} & & \Block{1-2}{B} & & \Block{1-2}{C$\sharp$} & & \Block{1-2}{D} & & \Block{1-2}{E} & & \Block{1-2}{F$\sharp$} & 
+	\end{NiceTabular}
 	\caption{F$\sharp$ minor scale}
 	\label{tab:guitar_f_sharp_minor_scale}
 \end{table}
