@@ -2,42 +2,47 @@
 
 The answer is, "kinda". So far you've made your first sounds and played along with a known song.
 
-By just reading tabs you can get quite far. But you will most likely be stuck with playing along with songs without really knowing what is going on. And \textbf{if that is your goal, that is completely fine}.
+By just reading tabs you can get quite far. But you will most likely be stuck with patterns on the fretboard and playing along with songs without really knowing what is going on. And \textbf{if that is sufficient for you, that is completely fine}.
 
-However, by getting familiar with the fretboard (which frets are which notes, and how to check this), you can be a lot more creative with music.
+However, by getting familiar with the fretboard and some theory to connect it all, you can be a lot more creative with music.
 
-Later on you will also learn about scales, which allow to you improvise over songs. To know which frets (or chords) to play, you will need to know which notes belong to the frets.
+Later on you will also learn about scales, which allow to you improvise over songs. You will learn about different kind of chords and where you can find these on the fretboard. To know which frets (or chords) to play, you will need to know which notes belong to the frets.
 
-Additionally, some (mostly classical) music doesn't have a version with tabs. Meaning that reading notes is still good to know.
+The goals of this chapter is to get you familiar with reading notes on a staff, how to know at what speed a note should be played relative to other notes, and to learn where the notes are on the fretboard.
 
 \section{Music staff}
 
 You have already seen the music staff from \autoref{fig:music_note_names_on_staff} in the previous exercises. But the meaning of it was not explained yet.
 
 \begin{itemize}
-	\item The letters A-G on the staff show which line on the staff has which note name. Notes names go from A to G as shown in an earlier chapter.
-	\item The notes go up alphabetically (starting again with A after G). 
+	\item The letters A-G on the staff show which line on the staff has which note name.
+	\item The notes go up alphabetically per step (starting again with A after G). 
 	\item Notes in between the lines nicely spell out \textbf{"FACE"}, making it easy to remember.
-	\item Note on the lines can be remembered with the mnemonic "\textbf{E}very \textbf{G}ood \textbf{B}oy \textbf{D}oes \textbf{F}ine".
-	\item The most left symbol (\clefG) is called the G clef. Note that the curl of the G clef is on the line of the G note (second line from the bottom). 
+	\item Notes on the lines can be remembered with the mnemonic "\textbf{E}very \textbf{G}ood \textbf{B}oy \textbf{D}oes \textbf{F}ine".
+	\item The most left symbol (\clefG) is called the G clef. Note that the curl of the G clef (second line from the bottom) indicates where the G is. More specifically, the G4.
+	\subitem Note that the G clef shown in \autoref{fig:music_note_names_on_staff} is slightly different from the ones seen in earlier exercises. For guitar notation you sometimes see a little 8 under the clef. This means that all the notes sound an octave lower than how they would sound with a G clef without the 8 below it. So \textbf{the curl of a G clef that has an 8 below it, would indicate a G3 instead of a G4}. However, when a piece is written for guitar, sometimes the little 8 is omitted. But then you can imaging that it is there.
 	\item The vertical line in the middle indicates the start/end of a measure.
 	\item The thicker vertical line in at the end indicates the end of the piece.
 \end{itemize}
 
 \begin{figure}[h]
 	\centering
-	\includegraphics[width=0.6\textwidth]{../../Images/MusicNotation_MeasureNoteNames.png}
+	\includegraphics[width=0.55\textwidth]{../../Images/MusicNotation_MeasureNoteNames.png}
 	\caption{Note names on the staff in two measures}
 	\label{fig:music_note_names_on_staff}
 \end{figure}
-
-Detail: note that the clef shown in \autoref{fig:music_note_names_on_staff} is different than the ones seen in earlier exercises. For guitar notation you sometimes see a little 8 under the clef. This means that the original position of "middle C" (C4) with treble clef sounds an octave lower. This Results in the C that you see in \autoref{fig:music_note_names_on_staff} to be the middle C (C4) when there is a little 8 below the clef.
 
 \newpage
 
 \section{Counting}
 
-So far we have also only seen one type of note. The quarter note. However, there are more. See \autoref{fig:note_duration_basic}. The \lilyTimeSignature{4}{4} means that there can fit 4 (top number) quarter notes (bottom number) in a measure. 
+So far we have also only seen one type of note. The quarter note (\quarterNote). However, there are more. See \autoref{fig:note_duration_basic}. In the same time that a whole note is played, two half notes can be played. And in the same duration as a half note, two quarter notes can be played, etc.
+
+The \lilyTimeSignature{4}{4} means that there can fit 4 (top number) quarter notes (bottom number) in a measure.
+
+\textbf{Important}: A whole note (\wholeNote) equals 4 quarter notes (\quarterNote). It does \textbf{not} equal a whole measure. But because the time signatures says that there are 4 quarter notes in a measure, the whole note takes up a whole measure here.\newline
+
+The "\quarterNote = 60" indicates the tempo and says how many notes of the indicated duration fit in a minute (the BPM). In this case 60 quarter notes fit in a minute. So it's 60 BPM Resulting in a quarter note being equal to 1 second. "\quarterNote = 80" would be 80 BPM, and a quarter note would be 0.75 seconds.
 
 \begin{figure}[h]
 	\centering
@@ -45,8 +50,6 @@ So far we have also only seen one type of note. The quarter note. However, there
 	\caption{Note duration}
 	\label{fig:note_duration_basic}
 \end{figure}
-
-\textbf{Important}: A whole note (\wholeNote) equal 4 quarter notes (\quarterNote). It does \textbf{not} equal a whole measure. \newline
 
 There are also other time signatures. The top value indicates how many notes of the bottom number's duration fit in a measure. So a \lilyTimeSignature{3}{4} time signature can fit 3 quarter notes per measure. And a \lilyTimeSignature{6}{8} time signature can fit 6 eighth notes per measure. Note that \lilyTimeSignature{3}{4} and \lilyTimeSignature{6}{8} indicate the same duration per measure, but they provide a different feel. This is demonstrated in \autoref{fig:time_signatures}.
 
@@ -108,7 +111,7 @@ Now Jingle bells can be played as shown in \autoref{fig:jingle_bells}.
 
 \newpage
 
-To learn a few more notes, the "Tetris" tune will be played. The notes from \autoref{fig:notes_for_tetris_first_part} should are used in this tune. The only new notes are A and B.
+To learn a few more notes, the "Tetris" tune will be played. The notes from \autoref{fig:notes_for_tetris_first_part} are used in this tune. The only new notes are A and B.
 
 \begin{figure}[h]
 	\centering
@@ -117,7 +120,7 @@ To learn a few more notes, the "Tetris" tune will be played. The notes from \aut
 	\label{fig:notes_for_tetris_first_part}
 \end{figure}
 
-In \autoref{fig:tetris_simple_first_part} the first part of the Tetris tune is written. Note the dotted note in measure 3. The full tune requires to learn about sharps and flats. So we will play the full tune later.
+In \autoref{fig:tetris_simple_first_part} the first part of the Tetris tune is written. \textbf{Note the dotted note in measure 3.} The full tune requires to learn about sharps and flats. So we will play the full tune later. The chords above the staff can be ignored for now.
 
 \begin{figure}[h]
 	\centering
@@ -142,7 +145,7 @@ Let's take the melody of "Memory" from the musical "Cats" \autoref{fig:memory_ca
 	\label{fig:notes_g_f_e_3}
 \end{figure}
 
-It also uses a new symbol. The \textbf{tie} symbol (seen to connect notes from measure 5 and 6 in \autoref{fig:memory_cats}). This symbol indicates that the duration of the first note that starts the tie has the summed duration of all consecutive identical note. All identical notes after the note that starts the tie are therefore not played
+It also uses a \textbf{new symbol}. The \textbf{tie symbol} (seen to connect notes from measure 5 and 6 in \autoref{fig:memory_cats}). This symbol indicates that the duration of the first note that starts the tie has the summed duration of all consecutive identical notes that are tied together. All tied notes after the note that starts the tie are therefore not played. Only counted.
 
 \begin{figure}[h]
 	\centering
@@ -151,7 +154,7 @@ It also uses a new symbol. The \textbf{tie} symbol (seen to connect notes from m
 	\label{fig:memory_cats}
 \end{figure}
 
-Another song that you know that uses all the notes that you've learned so far is Happy birthday {\autoref{fig:happy_birthday}}. 
+Another song that you know that uses all the notes that you have learned so far is Happy birthday (\autoref{fig:happy_birthday}). 
 
 \begin{figure}[h]
 	\centering
@@ -193,7 +196,9 @@ In the next song the low B, A, G, and E notes is introduced.
 	\label{fig:guitar_notes_for_seven_nation_army}
 \end{figure}
 
-Before playing \autoref{fig:guitar_seven_nation_army}. Lets see how these notes work that are below the normal lines. In the beginning of this chapter, the names of the notes that correspond to the lines of the staff where shown (\autoref{fig:music_note_names_on_staff}). Note there that each line and space between the lines had the sequence of "A, B, C, D, E, F, G, A, B, etc." if you go up up on the staff lines (and the other direction if you go on the staff lines). This sequence simply continues below and above the normal staff lines.
+Before playing \autoref{fig:guitar_seven_nation_army}. Lets see how these notes work that are below the normal lines. In the beginning of this chapter, the names of the notes that correspond to the lines of the staff where shown (\autoref{fig:music_note_names_on_staff}). Note there that each line and space between the lines had the sequence of "A, B, C, D, E, F, G, A, B, etc." if you go up on the staff lines (and the other direction if you go down on the staff lines). This sequence simply continues below and above the normal staff lines. Lines through a note that are above or below the main staff are called \textbf{ledger lines}. They help to keep track of how many lines the note is below or above the main staff.
+
+Play the song once using the tab positions indicated in \autoref{fig:guitar_notes_for_seven_nation_army}.
 
 \begin{figure}[h]
 	\centering
@@ -204,6 +209,15 @@ Before playing \autoref{fig:guitar_seven_nation_army}. Lets see how these notes 
 
 \newpage
 
+This song (Seven Nation Army) is typically played with power chords (discussed in a later chapter). When you do that, its more convenient to play the (root) notes mainly on the 5th and 6th string. \autoref{fig:guitar_seven_nation_army_alternative_tabs} shows alternative tab positions which are more convenient when playing power chords. You can give it a try.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarSevenNationArmyTheWhiteStripes-singlestring-tab.png}
+	\caption{Seven Nation Army - The White Stripes (alternative tabs)}
+	\label{fig:guitar_seven_nation_army_alternative_tabs}
+\end{figure}
+
 To introduce the last non-sharp/flat note withing the first 3 frets, we will play the first part from "Californication" from "Red Hot Chili Peppers". This introduces the low F note.
 
 \begin{figure}[h]
@@ -213,7 +227,7 @@ To introduce the last non-sharp/flat note withing the first 3 frets, we will pla
 	\label{fig:guitar_notes_for_californication}
 \end{figure}
 
-Note the fingering in \autoref{fig:guitar_californication}. In this piece, keep you fingers on the frets for the duration of the measure after playing them to let them ring.
+Note the fingering in \autoref{fig:guitar_californication}. In this piece, keep you fingers on the frets for the duration of the measure after playing them to let them ring through.
 
 \begin{figure}[h]
 	\centering
@@ -226,9 +240,9 @@ Note the fingering in \autoref{fig:guitar_californication}. In this piece, keep 
 
 \section{Sharps and flats}
 
-In the beginning of this method it was already mentioned that sharps $\sharp$ increase the note by a half step and flats $\flat$ decrease the note by a half step. It has also been mentioned that sharps and flats are valid for the duration of a measure. If a note should get its 'normal' sound back, a natural $\natural$ symbol is placed in front of it. This undoes the sharp/flat for the rest of the measure (until another sharp/flat is placed).
+Earlier it was already mentioned that sharps ($\sharp$) increase the note by a half step and flats ($\flat$) decrease the note by a half step. It has also been mentioned that sharps and flats are valid for the duration of a measure. If a note should get its 'normal' sound back, a natural ($\natural$) symbol is placed in front of it. This undoes the sharp/flat for the rest of the measure .
 
-What has not been mentioned yet, is that a sharp/flat placed at a note is valid only for that pitch of the note (position on the staff). See for example \autoref{fig:guitar_usage_of_sharps_and_naturals}. Here you see that the first G (open third string) got a sharp, and is therefore now played a half tone (1 fret) higher on the 1st fret. The G that is played one octave higher on the first string is still a G. When the G note then gets a natural sign, it becomes the normal G note again which is played on the open third string. The same example can be given for flats (\autoref{fig:guitar_usage_of_flats_and_naturals}).
+What has not been mentioned yet, is that a sharp/flat placed at a note is valid only for that pitch of the note (position on the staff). See for example \autoref{fig:guitar_usage_of_sharps_and_naturals}. Here you see that the first G (open third string) got a sharp, and is therefore now played a half tone (1 fret) higher on the 1st fret. The G that is played one octave higher on the first string is still a G. When the G\sharp note on the third string then gets a natural sign, it becomes the normal G note again which is played on the open third string. The same example can be given for flats (\autoref{fig:guitar_usage_of_flats_and_naturals}).
 
 \begin{figure}[h]
 	\begin{subfigure}[b]{0.45\textwidth}
@@ -247,21 +261,21 @@ What has not been mentioned yet, is that a sharp/flat placed at a note is valid 
 	\caption{Sharps, flats and naturals}
 \end{figure}
 
-Sometimes a song uses a note with a flat or sharp a lot of times. It can then be considered to be in a certain key (we will come back to that later). It is then not desired to add sharps/flats all over the sheet music. That could get messy. Instead, the sharps/flats of the key used for the song are shown at the beginning of the piece and apply to all pitches of the notes (unless natural symbols are used). This is called a key signature. Note that this is different than adding sharps inside a measure, there it only applies to that specific pitch.
+Sometimes a song uses a note with a flat or sharp a lot of times. It can then be considered to be in a certain key (we will come back to that later). It is then not desired to add sharps/flats all over the sheet music. That could get messy. Instead, the sharps/flats of the key used for the song are shown at the beginning of the piece and apply to all pitches of the notes (unless natural symbols are used). This is called a \textbf{key signature}. A standard set of key signatures will be described in a later section about the circle of fifths (\autoref{sec:circle_of_fifths}).
 
 See for example \autoref{fig:guitar_sharps_at_start_of_music} and \autoref{fig:guitar_flats_at_start_of_music}.
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarKeySharpExample.png}
-	\caption{Example of adding sharps at the beginning of the music}
+	\caption{Example of adding a key signature with sharps}
 	\label{fig:guitar_sharps_at_start_of_music}
 \end{figure}
 
 \begin{figure}[h]
 	\centering
 	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarKeyFlatExample.png}
-	\caption{Example of adding flats at the beginning of the music}
+	\caption{Example of adding a key signature with flats}
 	\label{fig:guitar_flats_at_start_of_music}
 \end{figure}
 
@@ -283,7 +297,7 @@ Before playing some pieces to learn the sharps and flats, lets first show the sh
 	\label{fig:guitar_string_a_octave_multi_string_flats_chap_music_notation}
 \end{figure}
 
-Also remember that between each note, except for B-C and E-F, there is are two half steps. Between B-C and E-F there is only one half step.
+Also remember that between each note, except for B-C and E-F, there is are two half steps. Between B-C and E-F there is only a half step.
 
 \begin{table}[h]
 	\centering
@@ -301,7 +315,7 @@ Note that C$\sharp$ and D$\flat$ are on in same position in \autoref{tab:guitar_
 
 \newpage
 
-Previously we have already played Happy Birtday without any sharps or flats. But the music can be 'transposed' to a different key. This can introduce sharps/flats. Also in \autoref{fig:guitar_happy_birthday_sharps}.
+Previously we have already played Happy Birthday without any sharps or flats. But the music can be \textbf{transposed} to a different key. In this case to the key of G major. See \autoref{fig:guitar_happy_birthday_sharps}.
 
 \begin{figure}[h]
 	\centering
@@ -310,7 +324,7 @@ Previously we have already played Happy Birtday without any sharps or flats. But
 	\label{fig:guitar_happy_birthday_sharps}
 \end{figure}
 
-In \autoref{fig:guitar_cest_la_vie_intro_chorus_melody} there are two song-wide sharps. The F and the C.
+In \autoref{fig:guitar_cest_la_vie_intro_chorus_melody} there are two song-wide sharps. The F and the C. This is the key of D major. But since the chorus starts on the B minor chord, you could also argue that it is in the key of B minor which has the same key signature. But this will all be discussed in a later section.
 
 \begin{figure}[h]
 	\centering
@@ -321,13 +335,13 @@ In \autoref{fig:guitar_cest_la_vie_intro_chorus_melody} there are two song-wide 
 
 In Hedwig's Theme (see the next page) you will see the usage of sharps, flats, naturals and music-wide sharps. It uses the same music-wide F$\sharp$ as Happy birthday.
 
-To better help you learn the position of these notes there is an empty tablature staff added. You can fill this staff with the correct tabs to help you learn.
+To better help you learn the position of these notes, there is an empty tablature added. You can fill this tablature with the correct tabs to help you learn.
 
 \includepdf[pages=-,pagecommand={\thispagestyle{headings}}]{../../MuseScore/Guitar/GuitarHarrysPotterHedwigsTheme.pdf}
 
-The next classical piece introduces a couple new things
+The next classical piece introduces a couple new things.
 
-First it introduces the high A and B notes (\autoref{fig:guitar_notes_high_a_b}). Previously it was already explained how the notes below the staff lines can be determined. The same holds for notes above the staff.
+First it introduces the high A and B notes (\autoref{fig:guitar_notes_high_a_b}). Previously it was already explained how the notes below the staff lines can be determined. The same holds for notes above the staff. You simply go alphabetically up the staff and ledger lines.
 
 \begin{figure}[h]
 	\centering
@@ -369,15 +383,18 @@ In the song "He's a pirate" (see the next page) from the "Pirates of the Caribbe
 	\label{fig:guitar_note_high_c}
 \end{figure}
 
-This song has a song-wide flat B.
+This song has a song-wide flat B. This corresponds to the D minor key. You see that the song both starts and ends on a D note. The different melody parts/walks in the songs also frequently start and/or stop on a D note. This makes D like a 'home' note.
 
-This song also introduces the concept of playing in a different position. Measure 32 - 39 are played from the 3rd position, and from measure 40 till the end you are playing in the 5th position. What this means is that you take the 3rd and 5th fret respectively as the 'starting' point. Imagine that the frets before that don't exist. This forces you to learn where identical pitched notes can be played on the fretboard.
+\textbf{This song also introduces the concept of playing in a different position.} Measure 32 - 39 are played from the 3rd position, and from measure 40 till the end you are playing in the 5th position. What this means is that you take the 3rd and 5th fret respectively as the 'starting' point. Imagine that the frets before that don't exist. This is done to make for easier/quicker playing. In terms of learning, this forces you to learn where identical pitched notes can be played on the fretboard.
 
-The benefit of these positions is that you don't have to fly with your hand all over the fretboard. Instead, by utilizing the correct finger positions you can keep your hand in one position.
+The benefit of these positions are that you don't have to fly with your hand all over the fretboard. Instead, by utilizing the correct finger positions you can keep your hand in one position.
 
-To help you, think about the relative tuning diagram from the beginning (\autoref{fig:guitar_relative_tuning}) and the interval of each fret (a semitone) together with how these steps relate do the different notes (\autoref{sec:fretboard_introduction}). 
+To help you, think about the relative tuning diagram from the beginning (\autoref{fig:guitar_relative_tuning}) and the interval of each fret (a semitone) together with how these steps relate to the different notes (\autoref{sec:fretboard_introduction}). 
 
 \includepdf[pages=-,pagecommand={\thispagestyle{headings}}]{../../MuseScore/Guitar/GuitarHesAPirate.pdf}
 
+TODO: Songs that show triplets, gallops, legato/hammer-on-pull-off, natural and artificial harmonics.
 
-% TODO: moonlight sonatat about triplets and corresponding chords with notes
+% TODO: Create example for triplet song (moonlight sonata or star wars theme?)
+
+% TODO: Create example for a gallop
