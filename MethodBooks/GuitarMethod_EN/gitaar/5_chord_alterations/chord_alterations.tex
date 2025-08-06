@@ -433,7 +433,170 @@ Note that there are two versions of the \writechord{Am7} chord. The closed/barre
 \newpage
 
 \section{Suspended (sus) chords}
-TODO
+
+A suspended chord replaces the 3rd degree of the chord with either a major 2nd (sus2) or a perfect 4th (sus4).
+
+This results in a chord that is neither major, nor minor. Note that both the major and minor scales have a major 2nd and a perfect 4th. Suspended chords are often played as short alterations to make the music sound a bit more lively while keeping the same root.
+
+The tables below show the sus2 and sus4 structure.
+
+\begin{table}[h]
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block[fill=ColorOtherNote]{1-2}{2} & & \Block{1-2}{3} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} &
+		\end{NiceTabular}
+		\caption{Building a sus2 chord from the major scale}
+		\label{tab:guitar_sus2_chord_buildup_major_scale}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3} & & \Block[fill=ColorOtherNote]{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6} & & \Block{1-2}{7} & & \Block{1-2}{8} &
+		\end{NiceTabular}
+		\caption{Building a sus4 chord from the major scale}
+		\label{tab:guitar_sus4_chord_buildup_major_scale}
+	\end{minipage}
+	
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block[fill=ColorOtherNote]{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} &
+		\end{NiceTabular}
+		\caption{Building a sus2 chord from the minor scale}
+		\label{tab:guitar_sus2_chord_buildup_minor_scale}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\begin{NiceTabular}{*{16}{P{0.05mm}}}
+			\Block{}{} & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{H}} & & \Block{1-2}{\large{W}} & & \Block{1-2}{\large{W}} & & \Block{}{} \\
+			\Block[fill=ColorRootNote]{1-2}{1} & & \Block{1-2}{2} & & \Block{1-2}{3$\flat$} & & \Block[fill=ColorOtherNote]{1-2}{4} & & \Block[fill=ColorOtherNote]{1-2}{5} & & \Block{1-2}{6$\flat$} & & \Block{1-2}{7$\flat$} & & \Block{1-2}{8} &
+		\end{NiceTabular}
+		\caption{Building a sus4 chord from the minor scale}
+		\label{tab:guitar_sus4_chord_buildup_minor_scale}
+	\end{minipage}
+\end{table}
+
+\subsection{Notation}
+
+Sus chords are noted as follows (taking C as the base chord):
+
+\begin{itemize}
+	\item Csus2
+	\item Csus4
+\end{itemize}
+
+\subsection{Inversions of sus chords}
+
+An interesting property of suspended chords is that inverting them results in a different sus chord.
+
+In the following diagrams, the numbers from which, and to which, arrows are drawn, show the scale degree. The numbers on the arrows indicate how many half steps are in the interval between them.
+
+\begin{tikzcd}
+	degree \ar[r,"interval"] & degree \ar[r,"interval"] & degree  \ar[ll,bend left,dashed,"interval"]
+\end{tikzcd}
+
+\autoref{tab:guitar_sus_inversions} show the inversions of sus2 and sus4 chords.
+
+Here also the term \textit{quartal chord} is mentioned. This is a chord that is build by stacking perfect 4th intervals.
+
+\begin{table}[h]
+	\centering
+	\begin{NiceTabular}{P{4.5cm}|P{4.5cm}|P{4.5cm}}
+		\Block{1-3}{\textit{sus2}} & & \\ 
+		\hline
+		Root & First inversion & Second inversion \\
+		\textbf{sus2} & Quartal chord with 2 as root & \textbf{sus4} with 5 as root \\
+		\hline
+		{
+			\begin{tikzcd}
+				1 \ar[r,"2"] & 2 \ar[r,"5"] & 5 \ar[ll,bend left,dashed,"5"]
+			\end{tikzcd}
+		}
+	 	& {
+	 		\begin{tikzcd}
+	 			2 \ar[r,"5"] & 5 \ar[r,"5"] & 1 \ar[ll,bend left,dashed,"2"]
+	 		\end{tikzcd}
+ 		} & {
+ 			\begin{tikzcd}
+	 			5 \ar[r,"5"] & 1 \ar[r,"2"] & 2 \ar[ll,bend left,dashed,"5"]
+ 			\end{tikzcd}} \\
+		\hline
+		\Block{1-3}{} & & \\
+		\Block{1-3}{\textit{sus4}} & & \\
+		\hline
+		Root & First inversion & Second inversion \\
+		\textbf{sus4} & \textbf{sus2} with 4 as root & Quartal chord with 5 as root \\
+		\hline
+		{
+			\begin{tikzcd}
+				1 \ar[r,"5"] & 4 \ar[r,"2"] & 5 \ar[ll,bend left,dashed,"5"]
+			\end{tikzcd}
+		}
+		& {
+			\begin{tikzcd}
+				4 \ar[r,"2"] & 5 \ar[r,"5"] & 1 \ar[ll,bend left,dashed,"5"]
+			\end{tikzcd}
+		} & {
+			\begin{tikzcd}
+				5 \ar[r,"5"] & 1 \ar[r,"5"] & 4 \ar[ll,bend left,dashed,"2"]
+		\end{tikzcd}} \\
+	\end{NiceTabular}
+	\caption{Intervals of sus4 chord inversions}
+	\label{tab:guitar_sus_inversions}
+\end{table}
+
+\newpage
+
+\subsection{Examples}
+
+In the song "SummerOf'69" by "Bryan Adams" the sus2 and sus4 chords on the A and D chords are used at the end of the choruses, and in the last verse.
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=0.65\textwidth]{../../Images/ChordsInSummerOf69BryanAdams.png}
+	\caption{Chords used in "SummerOf'69 - Bryan Adams"}
+	\label{fig:guitar_chords_summer_of_69_bryan_adams}
+\end{figure}
+
+\begin{song}[align-chords=l]{title={SummerOf'69 - Bryan Adams (last verse + chorus)}, music={Bryan Adams}}
+	\begin{verse}
+		^{Dsus2} ^{D}And now^{Dsus4} the times^{D} are^{Dsus2} chan^{D}gin' {} \\
+		^{Asus2} Look^{A} at every^{Asus4}thing that's come^{A} and ^{Asus2}gone^{A} {} \\
+		^{Dsus2} ^{D}Some^{Dsus4}times, when^{D} I play that old ^{Dsus2}six-^{D}string {} \\
+		^{Asus2} Think^{A} about you, ^{Asus4}wonder what^{A} went ^{Asus2}wrong^{A} \\
+	\end{verse}
+	\begin{chorus}
+		^{Bm} Standin' on your ^{A}mama's porch, ^{D} You told me that it'd ^{G}last forever \\
+		^{Bm} Oh, and when you ^{A}held my hand, ^{D} I knew that it was ^{G}now or never \\
+		^{Bm} Those were the ^{A}best days of my life \\
+		^{Dsus2} ^{D} ^{Dsus4} ^{D} ^{Dsus2} Oh^{D}, yeah, \\
+		^{Asus2} ^{A} ^{Asus4} ^{A}back in the ^{Asus2}summer ^{A}of ^{Dsus2}sixty ^{D}nine, ^{Dsus4} ^{D} ^{Dsus2} ^{D} \\
+	\end{chorus}
+\end{song}
+
+\newpage
+
+Suspended chords can also be used in a melody of course. The song "Breath" from "Rioghan" uses this (\autoref{fig:guitar_breath_rioghan_intro}).
+
+\begin{figure}[h]
+	\centering
+	\includegraphics[width=\textwidth]{../../MuseScore/Guitar/GuitarBreathRioghanIntro.png}
+	\caption{Intro of "Breath" by "Rioghan"}
+	\label{fig:guitar_breath_rioghan_intro}
+\end{figure}
+
+
+% Summer of 69 - Bryan Adams
+% Breath - Rioghan
+% Cold as ice - Foreigner
+% Wonderboy - tenacious D
+% Inversions
 
 \newpage
 
