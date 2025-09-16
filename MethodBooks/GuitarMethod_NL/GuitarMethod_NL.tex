@@ -1,0 +1,126 @@
+\documentclass{book}
+\usepackage[10pt]{extsizes}
+\usepackage[T1]{fontenc} % higher quality font encoding
+\usepackage[sfdefault]{universalis} % load the font and set it to default
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+\usepackage[toc,page]{appendix}
+
+\usepackage[parfill]{parskip}
+
+\usepackage{titlesec}
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter}{1em}{}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+\usepackage{pdfpages}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=false]{hyperref}
+\usepackage{subcaption}
+\usepackage{wrapfig}
+\usepackage{tcolorbox}
+
+
+\newcommand{\infobox}[1]
+{
+    \begin{tcolorbox}[colback=orange!5!white, colframe=orange!75!black]
+        \begin{minipage}{0.1\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{../../Images/attention-43524-svgrepo-com.png}
+        \end{minipage}
+        \hfill
+        \begin{minipage}{0.85\textwidth}
+            #1
+        \end{minipage}
+    \end{tcolorbox}
+}
+
+\usepackage{array}
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+
+\usepackage{fontspec}
+
+\usepackage{lilyglyphs}
+% To avoid a double define error with leadsheets
+\let\lilydoublesharp\doublesharp
+\let\doublesharp\relax
+
+\usepackage[minimal]{leadsheets}
+\useleadsheetslibrary{songs}
+\newversetype{outro-chorus}[name=Outro-chorus]
+
+
+\newcommand{\RomanNumeralCaps}[1]
+{
+	\MakeUppercase{\romannumeral #1}
+}
+\newcommand{\RomanNumeral}[1]
+{
+	\romannumeral #1
+}
+
+% xcolor overrides important things used by the `array`
+% package. Therefore use nicematrix
+\usepackage{nicematrix} 
+
+\definecolor{ColorOtherNote}{HTML}{FFE6CC}
+\definecolor{ColorRootNote}{HTML}{D5E8D4}
+
+\usepackage{slashbox}
+
+\usepackage{tikz-cd}
+
+\usepackage[backend=biber]{biblatex}
+\addbibresource{refs.bib}
+
+\title{Rooted strings}
+\author{Enzo Evers}
+\date{}
+
+\begin{document}
+
+%\includepdf{../../Images/TreeFrontPage.pdf}
+
+\maketitle
+
+\tableofcontents
+
+\input{gitaar/0_philosophy/main}
+\newpage
+\input{gitaar/1_klaarmaken_om_te_spelen/main}
+\newpage
+\input{gitaar/2_eerste_geluiden/main}
+\newpage
+\input{gitaar/3_getting_familiar_with_the_fretboard/main}
+\newpage
+\input{gitaar/4_scales_and_chords/main}
+\newpage
+\input{gitaar/5_chord_alterations/main}
+\newpage
+\input{gitaar/6_using_the_whole_fretboard/main}
+\newpage
+\input{gitaar/7_more_scales/main}
+
+%Reading notes
+%Scales and Chord patterns (learning the fretboard)
+%Strumming with fingers
+%Basic chord shapes + CAGFD
+%Extending the chords
+%Finger picking
+%Strumming patterns
+
+\printbibliography
+
+\begin{appendices}
+\input{gitaar/appendix_guitar_empty_fretboard/main}
+\newpage
+\input{gitaar/appendix_finger_exercises/main}
+\end{appendices}
+
+\end{document}
