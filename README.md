@@ -21,6 +21,8 @@ The philosophy of this method is:
 ### Download method book
 - [Guitar (English)](./MethodBooks/GuitarMethod_EN/GuitarMethod_EN.pdf)
     - Note: work in progress
+- [Guitar (Nederlands)](./MethodBooks/GuitarMethod_NL/GuitarMethod_NL.pdf)
+    - Note: work in progress
 
 The PDF can be downloaded using this button at the top right:
     
