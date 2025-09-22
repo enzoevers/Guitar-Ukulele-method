@@ -55,6 +55,15 @@
 \useleadsheetslibrary{songs}
 \newversetype{outro-chorus}[name=Outro-chorus]
 
+\setleadsheets{align-chords={l}}
+
+\definesongtitletemplate{empty}{} 
+\setleadsheets{disable-measuring = true}
+
+\ExplSyntaxOn
+\UseName{prop_new:c}{l__leadsheets_songs_height_prop}
+\ExplSyntaxOff
+
 
 \newcommand{\RomanNumeralCaps}[1]
 {
